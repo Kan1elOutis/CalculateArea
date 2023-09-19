@@ -1,8 +1,5 @@
-import os
-
 import pyspark
-
-from pyspark.sql import SparkSession, DataFrame
+from pyspark.sql import SparkSession
 
 sc = pyspark.SparkConf()
 spark = SparkSession.builder.appName("dataframes_task").getOrCreate()
